@@ -1,12 +1,12 @@
 #!/bin/bash
-# Autor: Robson Vaamonde
+# Autor: Robson aluno
 # Site: www.procedimentosemti.com.br
 # Facebook: facebook.com/ProcedimentosEmTI
 # Facebook: facebook.com/BoraParaPratica
 # YouTube: youtube.com/BoraParaPratica
-# Linkedin: https://www.linkedin.com/in/robson-vaamonde-0b029028/
+# Linkedin: https://www.linkedin.com/in/robson-aluno-0b029028/
 # Instagram: https://www.instagram.com/procedimentoem/?hl=pt-br
-# Github: https://github.com/vaamonde
+# Github: https://github.com/aluno
 # Data de criação: 21/12/2021
 # Data de atualização: 12/01/2022
 # Versão: 0.03
@@ -78,9 +78,9 @@
 #	<Next>
 # 05. Step 5 - authentication to AP
 #	Use HTTP Basic authentication: Yes
-#	Administration login: vaamonde
-#	Administration password: vaamonde
-#	Retype administration password: vaamonde
+#	Administration login: aluno
+#	Administration password: aluno
+#	Retype administration password: aluno
 #	<Next>
 # 06. @@Step 7 - Finish@@
 #	<save>
@@ -96,8 +96,8 @@
 #			IP Address/Hostname: localhost
 #			Port: 9096
 #			Use HTTP Basic authentication: Yes
-#			API Login: vaamonde
-#			API Password: vaamonde
+#			API Login: aluno
+#			API Password: aluno
 #			API connection test: <Test>
 #		<Next>
 # 03. Step 3 - authentication params to Baculum Web pane

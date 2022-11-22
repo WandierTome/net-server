@@ -1,12 +1,12 @@
 #!/bin/bash
-# Autor: Robson Vaamonde
+# Autor: Robson aluno
 # Site: www.procedimentosemti.com.br
 # Facebook: facebook.com/ProcedimentosEmTI
 # Facebook: facebook.com/BoraParaPratica
 # YouTube: youtube.com/BoraParaPratica
-# Linkedin: https://www.linkedin.com/in/robson-vaamonde-0b029028/
+# Linkedin: https://www.linkedin.com/in/robson-aluno-0b029028/
 # Instagram: https://www.instagram.com/procedimentoem/?hl=pt-br
-# Github: https://github.com/vaamonde
+# Github: https://github.com/aluno
 # Data de criação: 16/10/2021
 # Data de atualização: 19/05/2022
 # Versão: 0.13
@@ -42,7 +42,7 @@
 # Site Oficial do Projeto MariaDB: https://mariadb.org/
 #
 # ============================== EM DESENVOLVIMENTO E ANÁLISE DE BUGS ==============================
-# VEJA O ARQUIVO: https://github.com/vaamonde/ubuntu-2004/blob/main/BUGS PARA MAIS INFORMAÇÕES
+# VEJA O ARQUIVO: https://github.com/aluno/ubuntu-2004/blob/main/BUGS PARA MAIS INFORMAÇÕES
 # 0020 - Falha de autenticação dos Cliente do MySQL Server e do MySQL Workbench
 #
 # DO DO MATERIAL DE APOIO E ESTUDO PARA A RESOLUÇÃO DAS FALHAS DO MYSQL COM SUPORTE AO TLS/SSL OPENSSL

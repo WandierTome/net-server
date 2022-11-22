@@ -1,5 +1,5 @@
 #!/bin/bash
-# Autor: Robson Vaamonde
+# Autor: Robson aluno
 # Site: www.procedimentosemti.com.br
 # Facebook: facebook.com/ProcedimentosEmTI
 # Facebook: facebook.com/BoraParaPratica

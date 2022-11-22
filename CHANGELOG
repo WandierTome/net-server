@@ -1,38 +1,38 @@
-Autor: Robson Vaamonde
+Autor: Robson aluno
 Site: www.procedimentosemti.com.br
 Facebook: facebook.com/ProcedimentosEmTI
 Facebook: facebook.com/BoraParaPratica
 YouTube: youtube.com/BoraParaPratica
-Linkedin: https://www.linkedin.com/in/robson-vaamonde-0b029028/
+Linkedin: https://www.linkedin.com/in/robson-aluno-0b029028/
 Instagram: https://www.instagram.com/procedimentoem/?hl=pt-br
-Github: https://github.com/vaamonde
+Github: https://github.com/aluno
 Data de criação: 10/10/2021
 Data de atualização: 05/10/2022
 Versão: 0.84
 Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64
 
 ============================================= ATUALIZAÇÕES DOS SCRIPTS =============================================
-05/10/2022 - Robson Vaamonde - Atualização do script: 00-parametros.sh em relação a variável de instalação do CFTV
+05/10/2022 - Robson aluno - Atualização do script: 00-parametros.sh em relação a variável de instalação do CFTV
 ZoneMinder, alterado para a versão: MASTER que suportar a versão: 1.37.x, melhoria na documentação de configuração
 das câmeras de CFTV IPCam e IPWebCam.
 
-04/10/2022 - Robson Vaamonde - Preparação do material de monitoramento do Microsoft Windows utilizando o agente do
+04/10/2022 - Robson aluno - Preparação do material de monitoramento do Microsoft Windows utilizando o agente do
 Prometheus Windows Exporter junto com o Netdata, criação do arquivo de configuração: wmi.conf. Preparação e testes 
 da configuração do Netdata Cloud.
 
-25/09/2022 - Robson Vaamonde - Atualização do script: 00-parametros.sh, adicionado a variável $AGENTGLPIINSTALL10 com
+25/09/2022 - Robson aluno - Atualização do script: 00-parametros.sh, adicionado a variável $AGENTGLPIINSTALL10 com
 as opções da instalação das dependências dos Agentes do GLPI Help Desk v10.x, correção das dependências duplicadas
 do OCS Inventory e melhoria na indentação das bibliotecas do Perl, criação das variáveis de download dos Agentes extra 
 do GLPI Help Desk v10.x: $AGENTGLPILINUXNETWORK, $AGENTGLPILINUXCOLLECT, $AGENTGLPILINUXDEPLOY, alteração do script
 17-B-glpi-10.sh com a opção do download dos Agentes do Windows 32, Linux Network, Linux Collect e Linux Deploy, correção
 do BUG: 0024 referente a falha do ZoneMinder de acesso ao Painel de Controle.
 
-19/09/2022 - Robson Vaamonde - Correção do caminho do PATH dos Agentes do GLPI no script: 17-B-glpi-10.sh, alteração
+19/09/2022 - Robson aluno - Correção do caminho do PATH dos Agentes do GLPI no script: 17-B-glpi-10.sh, alteração
 da variável: $DOWNLOADAGENTGLPI, alteração do arquivo php.ini referente ao suporte a segurança de acesso ao GLPI na 
 versão 10.0.3 que exige a configuração da Sessão nas opções: session.cookie_secure = on e session.cookie_httponly = 
 on, atualização do arquivo: 00-parametros.sh com a nova versão do GLPI Help Desk v9.5.9.
 
-14/09/2022 - Robson Vaamonde - Criação do arquivo: WARNING que tem o objetivo de explicar o uso de cada script dos
+14/09/2022 - Robson aluno - Criação do arquivo: WARNING que tem o objetivo de explicar o uso de cada script dos
 serviços de rede se pode ou não ser instalado no mesmo servidor ou servidor dedicado, facilitando o uso dos scripts
 em vários servidores diferentes, atualização do script: 00-parametros.sh com a nova versão do GLPI Help Desk 10.0.3
 e adicionado os links dos download do Agent do GLPI, analisando a Falha: 0024 do ZoneMinder, ainda sem solução, o erro
@@ -47,7 +47,7 @@ com os Agentes do GLPI Help Desk, atualização do script: 17-B-glpi10.sh com as
 dos Agentes e fazer o download do Github dos agentes do GLPI Help Desk 10.0.x, criação do arquivo de configuração:
 agent.cfg do GLPI Help Desk Agent.
 
-21/08/2022 - Robson Vaamonde - Atualização do script: 00-parametros.sh com o novo caminho da imagem do Memtest86,
+21/08/2022 - Robson aluno - Atualização do script: 00-parametros.sh com o novo caminho da imagem do Memtest86,
 criação das variáveis: MEMTEST86V9 e MEMTEST86V4 para suportar as novas versões do Memtest86 mantida pela empresa que
 adquiriu o Memtest86 PassMark. Alteração do arquivo de configuração: dhcpd.conf com a linha para mudar o escopo padrão
 para configurar o DNS Server apontando para o servidor Ubuntu Server. Alteração do arquivo de configuração do serviço
@@ -55,65 +55,65 @@ do VSFTPd: vsftpd.allowed_users alterado os usuários do GLPI9 e GLPI10. Criaç�
 do nome do script: 18-A-fusioninventory-9.sh pois foi lançado o suporte para o GLPI 10. Correção do caminho do script
 da criação da Base de Dados do Zabbix, caminho estava correto só o nome que alterou para: server.sql.gz.
 
-20/08/2022 - Robson Vaamonde - Criação do arquivo de configuração: grafana.ini, alteração do script: 21-grafana.sh com
+20/08/2022 - Robson aluno - Criação do arquivo de configuração: grafana.ini, alteração do script: 21-grafana.sh com
 suporte para copiar o arquivo de configuração customizado do grafana.ini e editar o arquivo. Preparativos para a criação
 do script de geração do certificado TLS/SSL do Grafana.
 
-10/08/2022 - Robson Vaamonde - Atualização de vários arquivos no repositório com foco em documentação e correções de
+10/08/2022 - Robson aluno - Atualização de vários arquivos no repositório com foco em documentação e correções de
 escrita dos scripts, melhoria no cabeçalho e versões de software.
 
-09/08/2022 - Robson Vaamonde - Atualização do script: 00-parametros.sh referente aos software: FusionInventory 9.5.4.2,
+09/08/2022 - Robson aluno - Atualização do script: 00-parametros.sh referente aos software: FusionInventory 9.5.4.2,
 Docker Compose 2.9.0, Rundeck 4.4.0, Nextcloud 24.0.3, Asterisk 19, Zabbix 6.2, OpenFire 4.7.3, OCS Invetory 2.10.
 Correção do BUG: 0021 Falha de status de inicialização do ISC-DHCP Server utilizando o Webmin.
 
-31/07/2022 - Robson Vaamonde - Atualização do arquivo de configuração: pti.intra.hosts com o CNAME do Netdata, criação
+31/07/2022 - Robson aluno - Atualização do arquivo de configuração: pti.intra.hosts com o CNAME do Netdata, criação
 do arquivo de configuração: netdata-ssl.conf do Apache2 para suportar o Virtual Host do Netdata, Proxy e autenticação
 baseada no arquivo .htpasswd e utilização do TLS/SSL configurado no Apache2, alteração do arquivo de configuração do:
 netdata.conf para permitir somente as redes e nomes CNAME acessar o Dashboard do Netdata.
 
-28/07/2022 - Robson Vaamonde - Atualização do script: 00-parametros.sh, adicionado a dependência do NTP Server no laço
+28/07/2022 - Robson aluno - Atualização do script: 00-parametros.sh, adicionado a dependência do NTP Server no laço
 de loop do Netdata, adicionado os arquivos de configuração: ntpd.conf e netdata.conf, alterado o script: 15-netdata.sh
 acrescentado a edição do arquivo: ntpd.conf, alterado o script: 08-lamp.sh e 00-parametros.sh para resolver o BUG-0022
 referente ao Webmin não acessar o MySQL.
 
-21/07/2022 - Robson Vaamonde - Atualização do arquivo de configuração: php.ini com as opções recomendadas do Wordpress,
+21/07/2022 - Robson aluno - Atualização do arquivo de configuração: php.ini com as opções recomendadas do Wordpress,
 atualização do script: 13-wordpress.sh com as indicações de Temas e Plugins dos Docentes: José de Assis, Sirlene Sanches
 e do Profissional de TI Tales Wallef.
 
-12/07/2022 - Robson Vaamonde - Atualização do script: 00-parametros.sh referente a criação da Base de Dados do Apache
+12/07/2022 - Robson aluno - Atualização do script: 00-parametros.sh referente a criação da Base de Dados do Apache
 Guacamole, dependências do MySQL, Bind9 e Conector MySQL-Java, atualização do script: 20-guacamole.sh com as opções
 de criação do Banco de Dados e Conector MySQL-Java, atualização do arquivo de configuração: guacamole-properties com
 as opções de conexão com o Banco de Dados MySQL. Mudanças feita conforme o arquivo NEWS do dia: 03/02/2022
 
-10/07/2022 - Robson Vaamonde - Atualização do arquivo de configuração: ntp.conf adicionado os endereços IPv4 dos
+10/07/2022 - Robson aluno - Atualização do arquivo de configuração: ntp.conf adicionado os endereços IPv4 dos
 servidores do NTP.br para resolver a falha do Bind9 em relação a data e hora errada e ocasionando as falhas de
 resolução de nomes conforme o BUG: 0009 - Falha de resolução do DNS para endereços Externos, resolvido a falha de
 mapeamento do Webdav utilizando o PowerShell e do comando Net Use no Windows 10/11 referente ao BUG: 0023 - Falha na 
 montagem de compartilhamento do Protocolo Webdav no Powershell.
 
-09/07/2022 - Robson Vaamonde - Atualização do script: 00-parametros.sh adicionado no laço de loop da dependência do
+09/07/2022 - Robson aluno - Atualização do script: 00-parametros.sh adicionado no laço de loop da dependência do
 Bind9 no Webdav, atualização dos arquivos de configuração do GLPI nas versões v9.x e v10.x referente os caminhos da
 instalação e numeração das versões nos scripts.
 
-08/07/2022 - Robson Vaamonde - Atualização do script: 12-webdav.sh em relação a variável do caminho do arquivo de 
+08/07/2022 - Robson aluno - Atualização do script: 12-webdav.sh em relação a variável do caminho do arquivo de 
 usuários do Webdav de: PATHWEBDAVDB para PATHWEBDAVUSERS, remoção do bloco duplicado de módulos de Apache2 do Webdav.
 
-03/07/2022 - Robson Vaamonde - Atualização do script: 00-parametros.sh com a nova versão do GLPI Help Desk v9.5.8 e 
+03/07/2022 - Robson aluno - Atualização do script: 00-parametros.sh com a nova versão do GLPI Help Desk v9.5.8 e 
 v10.0.2 e atualização da numeração das versões dos scripts de configuração do GLPI no Apache2.
 
-05/06/2022 - Robson Vaamonde - Atualização do script: 14-webmin.sh retirado a opção de: sudo do comando de adicionar
+05/06/2022 - Robson aluno - Atualização do script: 14-webmin.sh retirado a opção de: sudo do comando de adicionar
 a chave GPG, atualizado o script: 00-parametros.sh com as versões novas do GLPI 9.x e 10.x, atualização do script
 18-fusioninventory.sh com o PATH da versão do GLPI 9.x, atualização do arquivo de configuração: agent.cfg indicando
 o caminho HTTPS do GLPI 9.x, adicionado e corrigido as dependências do FusionInventory Task WakeOnLan: libnet-write-perl
 libyaml-shell-perl.
 
-31/05/2022 - Robson Vaamonde - Alteração dos scripts e arquivos de configuração do GLPI Help Desk, criado a estrutura
+31/05/2022 - Robson aluno - Alteração dos scripts e arquivos de configuração do GLPI Help Desk, criado a estrutura
 para as versões: 9.5.x e 10.0.x, alterado o nome do script 17-glpi.sh para: 17-A-glpi9.sh utilizado na versão 9.5.x,
 criado a estrutura de diretórios: glpi9 e glpi10, alterado a localização do Path padrão do GLPI para as versões 9 e 10,
 alterado os arquivos de configuração do GLPI Help Desk para suportar HTTPS, criação das variáveis da versão 10 no 
 script: 00-parametros.sh, criação dos CNAMES no Bind9 DNS: glpi9, glpi10, helpdesk e suporte.
 
-30/05/2022 - Robson Vaamonde - Alteração da variável: GUACAMOLERDEP para GUACAMOLEDEP no script: 00-parametros.sh,
+30/05/2022 - Robson aluno - Alteração da variável: GUACAMOLERDEP para GUACAMOLEDEP no script: 00-parametros.sh,
 acréscimo das linhas de verificação da configuração dos arquivos do Apache2 nos scripts: 13-wordpress.sh, 16-loganalyzer.sh,
 17-glpi.sh e 19-zoneminder.sh, alteração da variável do laço de loop no script: 20-guacamole.sh, atualização dos 
 arquivos de configuração do: wordpress.conf e wp-config.php migrados para a versão 6.0 do Wordpress e configuração do
@@ -124,39 +124,39 @@ tomcat.conf adicionado o suporte ao HTTPS e troca da porta 8443 do suporte ao mo
 usuário root@localhost do MySQL nos scripts: 00-parametros.sh e no 08-lamp.sh, atualização do arquivo de configuração do:
 loganalyzer.conf para suportar o protocolo HTTPS e alteração do diretório raiz para: /var/www/log/.
 
-29/05/2022 - Robson Vaamonde - Alteração da localização do diretório do banco de dados do Webdav no arquivos de script
+29/05/2022 - Robson aluno - Alteração da localização do diretório do banco de dados do Webdav no arquivos de script
 00-parametros.sh para: /etc/apache2/webdav/, alteração do arquivo de configuração: webdav.conf alterado a linha do banco
 de dados de usuários e senhas de acesso ao diretório Webdav e localização do DAVLockDB.
 
-19/05/2022 - Robson Vaamonde - Adicionando a dependência do Cliente de FTPS no script: 00-parametros.sh do software:
+19/05/2022 - Robson aluno - Adicionando a dependência do Cliente de FTPS no script: 00-parametros.sh do software:
 lftp, acrescentado a opção de testar o certificado TLS/SSL do servidor VSFTPd no script: 11-C-openssl-vsftpd.sh.
 
-18/05/2022 - Robson Vaamonde - Melhoria na documentação do script: 00-parametros.sh em relação aos arquivos de Confs
+18/05/2022 - Robson aluno - Melhoria na documentação do script: 00-parametros.sh em relação aos arquivos de Confs
 do OpenSSL e dependência do Bind9 na variável: SSLDEPCA, melhoria nos arquivos: mysqld.cnf e mysql.cnf em relação ao
 suporte ao TLS/SSL, acréscimo da cópia e edição do arquivo: mysql.cnf no script: 08-lamp.sh.
 
-14/05/2022 - Robson Vaamonde - Migração do script: 35-openproject.sh da versão 18.04.x para 20.04.x, atualização do
+14/05/2022 - Robson aluno - Migração do script: 35-openproject.sh da versão 18.04.x para 20.04.x, atualização do
 script: 00-parametros.sh com as opções de instalação do OpenProject, atualização do arquivo: openproject.list com o
 Source List do OpenProject para a versão 20.04 do Ubuntu.
 
-13/05/2022 - Robson Vaamonde - Criação do arquivo: mysql.conf com as opções dos certificados assinado do MySQL Server,
+13/05/2022 - Robson aluno - Criação do arquivo: mysql.conf com as opções dos certificados assinado do MySQL Server,
 customização do script: 11-E-openssl-mysql.sh para resolver os problemas de criação e geração dos certificados SSL
 do MySQL Server, criação do arquivo: mysql.cnf do cliente do MySQL Server com suporte ao TLS/SSL, acréscimo das
 linhas de TLS/SSL no arquivo de configuração: mysqld.conf.
 
-12/05/2022 - Robson Vaamonde - Atualização do script: 11-D-openssl-tomcat.sh, acréscimo das opções de exportação do
+12/05/2022 - Robson aluno - Atualização do script: 11-D-openssl-tomcat.sh, acréscimo das opções de exportação do
 certificado CRT para PKCS#12 PEM, importação do certificado e exportação do arquivo JKS do Tomcat9 para suportar o
 protocolo HTTPS, alteração das opções de configuração do Servidor Tomcat9 no arquivo: server.xml referente a porta
 8443 e protocolo HTTPS, criação do arquivo: tomcat9.conf para a geração dos certificados assinados CRT e CSR do 
 servidor Tomcat9, adicionado as dependências no arquivo: 00-parametros.sh ibapr1-dev, libssl-dev e libtcnative-1 do
 Tomcat9 referente ao suporte ao OpenSSL.
 
-10/05/2022 - Robson Vaamonde - Atualização do script: 00-parametros.sh, acréscimo da instalação das dependências do
+10/05/2022 - Robson aluno - Atualização do script: 00-parametros.sh, acréscimo da instalação das dependências do
 suporte ao HTTPS do Tomcat9, adicionado as bibliotecas: libapr1-dev libssl-dev libtcnative-1, alteração do arquivo de
 configuração do servidor Tomcat9: server.xml, adicionado o bloco de configuração do suporte ao OpenSSL utilizando a 
 Biblioteca nativa baseada em Apache Portable Runtime (APR) para o Tomcat9 utilizar certificados assinados do OpenSSL.
 
-02/05/2022 - Robson Vaamonde - Atualização do script: 13-wordpress.sh, alteração de linha do comando SED referente ao
+02/05/2022 - Robson aluno - Atualização do script: 13-wordpress.sh, alteração de linha do comando SED referente ao
 SALT do arquivo wp-config.php (alterado de 62r para 64r devido ao acréscimo de comentários no arquivo), adicionado o
 bloco de configuração do suporte ao HTTPS no Virtual Host do Wordpress arquivo: wordpress.conf, alterado a posição da
 configuração da porta do VSFTPd no arquivo: vsftpd.conf e adicionado o bloco de configuração do BUG: 0019 no final do
@@ -165,7 +165,7 @@ GLPI para: /var/www/glpi, atualização das versões de software: Docker Compose
 Inventory Agent, Graylog, Nextcloud e do Asterisk, adicionado a variável: PATHAPACHE2="/var/www/html/" nas opções do
 LAMP-Server.
 
-28/04/2022 - Robson Vaamonde - Melhoria na documentação da Instalação da CA nos Navegadores utilizando o GNU/Linux 
+28/04/2022 - Robson aluno - Melhoria na documentação da Instalação da CA nos Navegadores utilizando o GNU/Linux 
 Mint no script: 11-A-openssl-ca.sh, melhoria na documentação do script: 09-vsftpd.sh, adicionado a alteração da
 permissão do arquivo de log: vsftpd.log junto com a criação do arquivo, melhoria na documentação do arquivo de 
 configuração do Tomcat9: server.xml, acréscimo das opções de FTP Passivo e suporte ao NAT no arquivo do VSFTPd
@@ -173,39 +173,39 @@ vsftpd.conf, analise dos BUGs: 0018 - Falha de TCP Wrappers do MySQL Server e 00
 criação de arquivos utilizando o Windows Explorer no Windows 10 se conectando remotamente no Servidor FTP utilizando 
 o VSFTPd (aplicado Patch de correção no arquivo vsftpd.conf e no arquivo vsftpd.allowed_users).
 
-19/04/2022 - Robson Vaamonde - Melhoria no arquivo de configuração: vsftpd.conf, adicionado a linha: listen_port=21
+19/04/2022 - Robson aluno - Melhoria no arquivo de configuração: vsftpd.conf, adicionado a linha: listen_port=21
 e o bloco de configuração do modo passivo de acesso remoto via NAT do Servidor FTP (ainda em testes e análise do BUG),
 alteração do arquivo de configuração: 50-default.conf para habilitar o registro dos Logs do VSFTPd no arquivo de Log
 padrão em: /var/log/vsftpd.log
 
-17/04/2022 - Robson Vaamonde - Melhoria nos arquivos de configuração e scripts do OpenSSL: 11-A-openssl-ca.sh, ca.conf,
+17/04/2022 - Robson aluno - Melhoria nos arquivos de configuração e scripts do OpenSSL: 11-A-openssl-ca.sh, ca.conf,
 apache2.conf e vsftpd.conf, melhoria na documentação do acesso ao FTP no script: 09-vsftpd.sh, alteração do caminho
 do Path da Instalação e Configuração do Wordpress de: /var/www/html/wp para: /var/www/wp, com essa mudança o Wordpress
 fica mais seguro e o Virtual Host do arquivo: wordpress.conf também foi alterado para visualizar os arquivos no novo
 Path, alteração feita também no arquivo: 00-parametros.sh para a criação do diretório e configuração do usuário do FTP.
 
-14/04/2022 - Robson Vaamonde - Melhoria no arquivo de configuração: mysqld.cnf, adicionado os recursos de Log de:
+14/04/2022 - Robson aluno - Melhoria no arquivo de configuração: mysqld.cnf, adicionado os recursos de Log de:
 general_log_file, log_error, slow_query_log_file e log_bin, reorganização de algumas configurações para facilitar a
 documentação do Daemon do MySQL Server, alteração do script: 00-parametros.sh adicionado a porta: 20 do VSFTPd,
 melhoria na documentação do script: 09-vsftpd.sh.
 
-09/04/2022 - Robson Vaamonde - Analisando o BUG: 0017 (open pipe file /run/rpc_pipefs/nfs/blocklayout failed: No such 
+09/04/2022 - Robson aluno - Analisando o BUG: 0017 (open pipe file /run/rpc_pipefs/nfs/blocklayout failed: No such 
 file or directory) referente ao servidor NFS Server, criação do arquivo: override.conf com as opções de inicialização
 do módulo do Kernel blocklayoutdriver, criação do arquivo: blocklayout de referência do PIPE do processo do NFS Server
 no script: 07-nfs.sh.
 
-08/04/2022 - Robson Vaamonde - Criação do arquivo de configuração: charset.conf do Apache2 para suportar o UTF-8 nas
+08/04/2022 - Robson aluno - Criação do arquivo de configuração: charset.conf do Apache2 para suportar o UTF-8 nas
 páginas em HTML caso você esqueça de colocar a TAG: <meta charset="utf-8"> nos arquivos HTML, alteração do script:
 08-lamp.sh, adicionado a opção de copiar e editar o arquivo: charset.conf.
 
-05/04/2022 - Robson Vaamonde - Atualização do script: 07-nfs.sh, acréscimo das linhas de alteração do arquivo de
+05/04/2022 - Robson aluno - Atualização do script: 07-nfs.sh, acréscimo das linhas de alteração do arquivo de
 hosts.allow, melhoria na linha de exibição dos compartilhamentos do NFS Server, adicionado a opção: insecure no
 arquivo: exports para resolver a falha de montagem do volume NFS no sistema operacional Windows: Erro de Rede - 53
 e 87, adicionado a opção: -V 2 no arquivo: nfs-kernel-server para suportar a versão 2 do NFS Server, corrigido a
 falha de mapeamento do NFS Client no Windows e Linux no arquivo: hosts.allow, adicionado as opções: rpc.idmapd:, 
 rpc.mountd: e rpcbind:.
 
-03/04/2022 - Robson Vaamonde - Analisando o BUG: 0016 (tftp client does not accept options) referente as opções de
+03/04/2022 - Robson aluno - Analisando o BUG: 0016 (tftp client does not accept options) referente as opções de
 Boot do DHCP Server do Protocolo PXE, falha está associada no tipo de Bios UEFI do Desktop remoto, não sendo um erro
 ou falha de configuração, testando as opções no arquivo de configuração tftp-hpa: -r blksize, estudo para a criação
 do arquivo de instalação do Serviço phpIPAM (*IP Address management*), alterado o arquivo: 00-parametros.sh com as 
@@ -213,7 +213,7 @@ opções do TFTP: initramfs-tools, e mudança das variáveis do Webdav que está
 12-webdav.sh referente ao PATH errado, criação do arquivo: nfs-kernel-server, alteração do script: 07-nfs.sh
 adicionado o backup, atualização e edição do arquivo: nfs-kernel-server e das opções de estatísticas do NFS Server. 
 
-31/03/2022 - Robson Vaamonde - Adicionando os softwares: syslinux syslinux-utils syslinux-efi pxelinux no arquivo:
+31/03/2022 - Robson aluno - Adicionando os softwares: syslinux syslinux-utils syslinux-efi pxelinux no arquivo:
 00-parametros.sh nas configurações do TFTP-HPA, acrescentado os caminhos do PXELinux e do Syslinux para a copia dos
 arquivos de inicialização do Boot PXE do TFTP-HPA, criado o arquivo: default com as informações do PXE Grub Menu,
 alterado o script: 06-tftphpa.sh adicionado as opções de copiar os arquivos do PXELinux e Syslinux para o diretório
@@ -223,7 +223,7 @@ script: 03-dns.sh, caminho estava configurado como: /etc/default/ correto é: /e
 configuração do: dhcpd.conf referente as variáveis: default-lease-time, max-lease-time e adicionado min-lease-time
 no bloco de configuração global do escopo.
 
-30/03/2022 - Robson Vaamonde - Analisando o BUG: 0015 (Falha de Relógio do Kernel não Sincronizado NTP Server), foi
+30/03/2022 - Robson aluno - Analisando o BUG: 0015 (Falha de Relógio do Kernel não Sincronizado NTP Server), foi
 adicionado no arquivo de configuração: ntp.conf a opção: +sysall na linha de Log no NTP Server para facilitar o Debug
 da falha, foi adicionado o comando: ntptime no script: 05-ntp.sh para facilitar as informações e sincronismo da data 
 e hora do Kernel, ainda analisando o BUG, conforme vários artigos e comentários nos fóruns de GNU/Linux essa mensagem 
@@ -231,17 +231,17 @@ e normal, não sendo uma falha do NTP Server, está associada inicialmente devid
 servidores remotos não ser feita de forma rápida, depois de alguns minutos/horas o sincronismo e feito e a mensagem 
 não aparece mais, analisando mais opções de configuração do arquivo ntp.conf.
 
-28/03/2022 - Robson Vaamonde - Grande atualização da organização do scripts do Curso do Ubuntu Server, alteração da
+28/03/2022 - Robson aluno - Grande atualização da organização do scripts do Curso do Ubuntu Server, alteração da
 numeração dos scripts para facilitar a instalação e configuração dos serviços de rede, script do NFS Sever e Webdav
 foram trazidos para o início do curso facilitando o acesso dos arquivos remotos no servidor, foi desmembrado o script
 do OpenSSL separando a criação da CA (Certificate Authority) dos Certificados Assinados CRT (Certificate Request Trust) 
 de cada serviço de rede, atualização do script: 00-parametros.sh reorganizando as variáveis da numeração dos novos
 scripts, atualização dos nomes dos arquivos de configuração da CA para facilitar a configuração.
 
-24/03/2022 - Robson Vaamonde - Atualização do arquivo de configuração: timesyncd.conf com mais servidores do projeto
+24/03/2022 - Robson aluno - Atualização do arquivo de configuração: timesyncd.conf com mais servidores do projeto
 NTP.br nas linhas: NTP e FallbackNTP, alteração do script: 05-ntp.sh removendo a edição do arquivo: timesyncd.conf.
 
-23/03/2022 - Robson Vaamonde - Acréscimo do recurso do OUI (organizationally unique identifier) nas configurações do
+23/03/2022 - Robson aluno - Acréscimo do recurso do OUI (organizationally unique identifier) nas configurações do
 DHCP Server para suportar a resolução e pesquisa de Lease do comando: dhcp-lease-list, adicionado as opções para o
 download do arquivo TXT nos scripts: 00-parametros.sh e 02-dhcp.sh. Após análise do BUG: 0014 (Falha de Permissão
 Negada) do arquivo: cron.log, aplicação do Path de Correção no script: 01-openssh.log referente ao usuário e grupo
@@ -249,48 +249,48 @@ do arquivo que estava configurado como: root.root, o correto é: syslog.root, ad
 dos serviços do: Syslog, Cron e Logrotate para a criação correta do arquivo: cron.log, caso o arquivo cron.log não
 seja criado de forma correta, digitar o comando: sudo chmod -v syslog.root /var/log/cron.log.
 
-14/03/2022 - Robson Vaamonde - Várias melhorias nas documentações dos scripts em relação aos comandos utilizados nos
+14/03/2022 - Robson aluno - Várias melhorias nas documentações dos scripts em relação aos comandos utilizados nos
 clientes de vários serviços implementados, utilizado a descrição básica do MAN (manuais) dos comandos.
 
-11/03/2022 - Robson Vaamonde - Melhorias nos arquivos de configuração: hosts.allow e hosts.deny, acrescentado mais
+11/03/2022 - Robson aluno - Melhorias nos arquivos de configuração: hosts.allow e hosts.deny, acrescentado mais
 informações detalhadas nos Logs: $(date -u) | Serviço Remoto %d | Host Remoto %c | Porta Remota %r | Processo Local %p,
 melhoria no arquivo de configuração: dhcpd.conf, acrescentado as opções de mais servidores DNS e alterado o DNS padrão
 para o do Firewall pfSense e adicionado os DNS do Google (8.8.8.8 e 8.8.4.4). 
 
-08/03/2022 - Robson Vaamonde - Acréscimo no arquivo: 00-parametros.sh na opção do OpenSSH Server a instalação do
+08/03/2022 - Robson aluno - Acréscimo no arquivo: 00-parametros.sh na opção do OpenSSH Server a instalação do
 pacote extra: traceroute.
 
-02/03/2022 - Robson Vaamonde - Atualização dos arquivos de instalação: 01-InstalacaoDoUbuntuServer-20.04.3-LTS e 
+02/03/2022 - Robson aluno - Atualização dos arquivos de instalação: 01-InstalacaoDoUbuntuServer-20.04.3-LTS e 
 01-InstalacaoDoUbuntuServer-20.04.4-LTS, acréscimo das explicações para executar mais de uma vez o script no mesmo
 servidor no arquivo: HELP.
 
-20/02/2022 - Robson Vaamonde - Alteração das opções do arquivo: php.ini, acrescentado os valores de referência do GLPI
+20/02/2022 - Robson aluno - Alteração das opções do arquivo: php.ini, acrescentado os valores de referência do GLPI
 nas linhas: max_execution_time = 600, session.auto_start = Off, session.use_trans_sid = 0, adicionado as opções de 
 edição do monitoramento dos serviços: Docker, ElasticSearch, MongoDB, e do Redis Server no script: 13-netada.sh, 
 melhoria no script: 00-parametros.sh adicionado a variável: $SENHADEFAULT em vários blocos de configuração, atualizado
 a versão do Nextcloud para: v23.0.3, atualizado a versão do Asterisk para: v19.2.0.
 
-18/02/2022 - Robson Vaamonde - Acréscimo das dependências: zlibc e zlib1g-dev no arquivo: 00-parametros.sh do Wordpress 
+18/02/2022 - Robson aluno - Acréscimo das dependências: zlibc e zlib1g-dev no arquivo: 00-parametros.sh do Wordpress 
 referente aos recursos de Plugins/Extensões utilizadas para customizar os Templates, alteração do arquivo: php.ini
 descomentado a linha: zlib.output_compression = On
 
-13/02/2022 - Robson Vaamonde - Correção de PT-BR e nas opções de: ECHO no script: 34-netdisco.sh, alteração das variáveis
+13/02/2022 - Robson aluno - Correção de PT-BR e nas opções de: ECHO no script: 34-netdisco.sh, alteração das variáveis
 PORTAPACHE e AGAINMYSQL nos scripts: 00-parametros.sh e: 07-lamp.sh, devido a conflitos com o script: 100-lemp.sh.
 
-12/02/2022 - Robson Vaamonde - Criação e customização do arquivo: vimrc adicionado a opção de número de linhas nas
+12/02/2022 - Robson aluno - Criação e customização do arquivo: vimrc adicionado a opção de número de linhas nas
 configurações do editor de texto VIM, adicionado a cópia do arquivo no script: 01-openssh.sh, sem necessidade de
 edição do arquivo pois é simples a sua configuração.
 
-06/02/2022 - Robson Vaamonde - Criação do script: 34-netdisco.sh, acréscimo das opções de configuração do Netdisco no 
+06/02/2022 - Robson aluno - Criação do script: 34-netdisco.sh, acréscimo das opções de configuração do Netdisco no 
 arquivo: 00-parametros.sh, customização do arquivo de Deployment: deployment.yml do Netdisco, criação dos arquivos do
 SystemD para a inicialização automática do Netdisco.
 
-04/02/2022 - Robson Vaamonde - Correção da falha do DAV Off no Virtualhost do Nextcloud do script: 32-nextcloud.sh,
+04/02/2022 - Robson aluno - Correção da falha do DAV Off no Virtualhost do Nextcloud do script: 32-nextcloud.sh,
 correção feita no arquivo de configuração: nextcloud.conf do Virtualhost do Apache2, criação dos scripts para a 
 instalação e configuração do Prometheus e do InfluxDB integrados no script: 19-grafana.sh, novos arquivos do Netdata
 para o monitoramento do ElasticSearch, MongoDB, Redis Server e do Docker acrescentado no script: 13-netdata.sh
 
-03/02/2022 - Robson Vaamonde - Correção do HTTPS no script: 01-openssh.sh do acesso ao Shell-In-a-Box, melhoria no
+03/02/2022 - Robson aluno - Correção do HTTPS no script: 01-openssh.sh do acesso ao Shell-In-a-Box, melhoria no
 arquivo de Banner: issue.net adicionado a Lei LGPD (Lei Geral de Proteção de Dados), melhorias nos arquivos da placa
 de rede Netplan: 50-cloud-init.yaml e 00-installer-config.yaml com separação/comentário nas linhas para facilitar a
 leitura das configurações, criado o arquivo: named.conf.default-zones do Bind9 DNS Server, adicionado as linhas para 
@@ -300,21 +300,21 @@ Apache2 e melhoria no nome de domínio do link de download do certificado do CA,
 no arquivo: 00-parametros.sh, correção da falha de atualização e edição do arquivo: idmapd.conf no script: 30-nfs.sh,
 melhoria no script: 31-webdav.sh na criação do usuário.
 
-02/02/2022 - Robson Vaamonde - Correção da falha de edição do arquivo: 50-default.conf no script: 01-openssh.sh devido
+02/02/2022 - Robson aluno - Correção da falha de edição do arquivo: 50-default.conf no script: 01-openssh.sh devido
 a falta da / "barra" na linha de cópia do arquivo, alteração da variável: FQDNSERVER no arquivo: 00-parametros.sh,
 
-21/01/2022 - Robson Vaamonde - Acréscimo da opção do Docker Compose no script: 21-docker.sh, adicionado as dependências
+21/01/2022 - Robson aluno - Acréscimo da opção do Docker Compose no script: 21-docker.sh, adicionado as dependências
 no arquivo: 00-parametros.sh, melhoria em vários scripts em relação ao Status dos Serviços utilizando o comando:
 systemctl status, várias correções de Pt-BR nos scripts.
 
-20/01/2022 - Robson Vaamonde - Finalizado os testes das novas opções do OpenSSH Server no arquivo: sshd_config,
+20/01/2022 - Robson aluno - Finalizado os testes das novas opções do OpenSSH Server no arquivo: sshd_config,
 melhorias na documentação dos arquivos de Zona de Pesquisa Direta e Reversa do Bind9 DNS Server, customização do
 arquivo: 50-default.conf do Rsyslog, habilitando recursos de Log do Cron, User, etc, arquivo adicionado no script
 do OpenSSH Server: 01-openssh.sh, correção do arquivo: awstatsupdate-cron em relação a falha de atualização das
 informações de estatísticas de acesso ao domínio pti.intra, criação dos arquivo: ntpdate e atualização do script: 
 05-ntp.sh, correção do arquivo: wp-config.php referente a falha do tipo de arquivo CRLF convertido para LF.
 
-18/01/2022 - Robson Vaamonde - Novas opções de configuração do OpenSSH Server no arquivo: sshd_config ainda em fase 
+18/01/2022 - Robson aluno - Novas opções de configuração do OpenSSH Server no arquivo: sshd_config ainda em fase 
 de testes e homologação (acrescentado no final do arquivo, opções comentadas), customização do arquivo: config.conf
 do Neofetch, criação do arquivo de CRON: neofetch-cron para atualizar o arquivo motd, atualização das opções no 
 arquivo: 01-openssh.sh, atualização do arquivo de configuração: dhcpd.conf com novas opções: get-lease-hostnames on;
@@ -323,7 +323,7 @@ acréscimo do bloco para habilitar os principais módulos do Apache2 no script: 
 AWStats no script: 00-parametros.sh referente a instalação do LAMP-Server e acrescentado as opções de configuração
 no script: 07-lamp.sh.
 
-17/01/2022 - Robson Vaamonde - Atualização dos arquivos: issue.net, 04-ConfiguracaoDoNeplan.sh, correção do Locale no
+17/01/2022 - Robson aluno - Atualização dos arquivos: issue.net, 04-ConfiguracaoDoNeplan.sh, correção do Locale no
 arquivo: 05-ntp.sh, acréscimo das linhas: locale-gen pt_BR.UTF-8, localectl set-locale LANG=pt_BR.UTF-8 e correção do
 comando: update-locale LANG=pt_BR.UTF-8 LC_ALL=pt_BR.UTF-8 LANGUAGE="pt_BR:pt:en", será mostrado em vídeo o acréscimo
 da informação no arquivo: /etc/default/keyboard da variável: XKBVARIANT="intl" quando se utiliza teclado en_US-UTF-8,
@@ -332,50 +332,50 @@ acréscimo do aplicativo Shell-In-a-Box no script: 01-openssh.sh e atualização
 opções de portas e dependências, customização do arquivo: config.conf do Neofetch e criação do arquivo de cron para
 atualizar as informações do arquivo motd.
 
-14/01/2022 - Robson Vaamonde - Criação dos script: 33-asterisk.sh, customização dos seus arquivos de configuração e
+14/01/2022 - Robson aluno - Criação dos script: 33-asterisk.sh, customização dos seus arquivos de configuração e
 atualização para a nova versão: 19.1.x., acréscimo da dependência: php-soap no arquivo: 00-parametros.sh referente
 a Loja Virtual do Wordpress reportado pelo Prof. José de Assis.
 
-13/01/2022 - Robson Vaamonde - Criação do arquivo PORTS com especificações das Portas TCP e UDP dos Serviços de Rede
+13/01/2022 - Robson aluno - Criação do arquivo PORTS com especificações das Portas TCP e UDP dos Serviços de Rede
 utilizados pelos Scripts, atualização do versão do OpenFire para: 4.67, alteração da versão do ownCloud para o arquivo
 latest.tar.bz2, atualização do arquivo: 11-wordpress.sh alteração do nome do arquivo de download para: wordpress.zip
 correção da localização do arquivo: wp-config.php na hora de aplicar o Salt, acréscimo da listagem TCP da porta 514
 no script: 14-loganalyzer.sh, acréscimo da edição do arquivo PHP no script: 25-owncloud.sh, atualização da versão do 
 Perl: 5.30.0 no arquivo: zz-ocsinventory-restapi.conf, acréscimo da porta 6379 do Redis Server no script: 23-ntopng.sh
 
-12/01/2022 - Robson Vaamonde - Acréscimo da linha: add-apt-repository restricted em todos os scripts do curso, 
+12/01/2022 - Robson aluno - Acréscimo da linha: add-apt-repository restricted em todos os scripts do curso, 
 acréscimo das opções do serviço do NFS no arquivo: hosts.allow.
 
-11/01/2022 - Robson Vaamonde - Correção dos Bugs referente ao uso do Wordpress que foram reportados pelo Prof. José
+11/01/2022 - Robson aluno - Correção dos Bugs referente ao uso do Wordpress que foram reportados pelo Prof. José
 de Assis, correções dos arquivos: 00-parametros.sh, 00-default.conf, htaccess, wordpress.conf e wp-config.php, 
 criação dos scripts: salt.sh e updateip.sh como ferramenta de suporte ao Wordpress.
 
-10/01/2022 - Robson Vaamonde - Criação do arquivo de configuração envvars do Apache2 para corrigir a falha de PT-BR
+10/01/2022 - Robson aluno - Criação do arquivo de configuração envvars do Apache2 para corrigir a falha de PT-BR
 do Nextcloud, acréscimo da linha de edição do arquivo no script: 07-lamp.sh, melhoria em todos os scripts com a opção
 do comando: read -s para remover a quebra de linha após editar os arquivos,
 
-09/01/2022 - Robson Vaamonde - Acréscimo da linha de configuração do Locale no script: 05-ntp.sh e criação da variável
+09/01/2022 - Robson aluno - Acréscimo da linha de configuração do Locale no script: 05-ntp.sh e criação da variável
 locale no script: 00-parametros.sh, criação do script 32-nextcloud.sh e testes de configuração do servidor e correções
 de Bugs nos scripts, alterado da localização dos arquivos do Webdav para: /var/www/webdav (devido a segurança de acesso),
 criação do CNAME: next no arquivo do Bind DNS pti.intra.hosts.
 
-08/01/2022 - Robson Vaamonde - Criação dos arquivos de configuração do PostgreSQL: pg_hba.conf e postgresql.conf,
+08/01/2022 - Robson aluno - Criação dos arquivos de configuração do PostgreSQL: pg_hba.conf e postgresql.conf,
 alteração do script: 29-postgresql.sh com o acréscimo das linhas de atualização dos arquivos conf, criação do script
 30-nfs.sh e 31-webdav.sh, atualização do arquivo de configuração: pti.intra.hosts com os CNAME: nfs e webdav.
 
-23/12/2021 - Robson Vaamonde - Correções de vários scripts em relação ao PT-BR e melhorias na estrutura e documentação,
+23/12/2021 - Robson aluno - Correções de vários scripts em relação ao PT-BR e melhorias na estrutura e documentação,
 finalizado a homologação dos scripts até 29-postgresql.sh. Preparação para a gravação das aulas em Janeiro de 2022,
 criação do roteiro e linha de base para a gravação dos vídeos, criação da estrutura de diretórios, scripts que ainda 
 não foram migrados estão no diretório referente ao seu serviço, somente após a migração será acrescentado o seu número
 de sequência e se esse script pode ser instalado junto com os demais.
 
-19/12/2021 - Robson Vaamonde - Correções de vários scripts e homologação dos scripts até 27-bacula.sh.
+19/12/2021 - Robson aluno - Correções de vários scripts e homologação dos scripts até 27-bacula.sh.
 
-15/12/2021 - Robson Vaamonde - Várias melhorias nos scripts em geral para facilitar os procedimentos de gravação dos
+15/12/2021 - Robson aluno - Várias melhorias nos scripts em geral para facilitar os procedimentos de gravação dos
 vídeos em 2022, correções dos Bugs do Netdata, GLPI, Tomcat na Base de Dados da Agenda, e melhorias na documentação e 
 tradução dos scripts.
 
-13/12/2021 - Robson Vaamonde - Mudança na estrutura de diretório dos arquivos de configuração dos serviços de rede,
+13/12/2021 - Robson aluno - Mudança na estrutura de diretório dos arquivos de configuração dos serviços de rede,
 criação dos sub-diretórios de cada serviço para facilitar a administração e customização para cenários diferentes.
 Várias melhorias nos scripts e arquivos de configuração nos dias 10 até 12/12/2021 com foco mais em documentação e 
 tradução, criação da validação de uso de porta nos scripts para facilitar o diagnóstico de uso de porta de serviço,
@@ -383,7 +383,7 @@ criação da validação de uso da Internet nos scripts para facilitar o diagnó
 criação do arquivo: bind-rndc do Bind9 referente ao Logrotate utilizado pelo Netdata, criação dos arquivos de
 configuração dos serviços de rede monitorados pelo Netdata.
 
-09/12/2021 - Robson Vaamonde - Melhorias gerais no PT-BR em vários arquivos Conf e Script, acréscimo da linha de 
+09/12/2021 - Robson aluno - Melhorias gerais no PT-BR em vários arquivos Conf e Script, acréscimo da linha de 
 verificação da consultado do domínio: dig no script: 03-dns.sh, criação da variável: SECRETUPDATE no arquivos de: 
 00-parametros.sh para facilitar a atualização das chaves de integração do Bind DNS e do ISC DHCP Server, acréscimo
 da linha de verificar do Status dos serviços em todos os scripts, criação do Virtual Host do LogAnalyzer, customização
@@ -391,19 +391,19 @@ do script: 18-guacamole.sh com suas variáveis no arquivo: 00-parametros.sh, acr
 no arquivo: named.conf.options, criação do usuário do Netdata no Banco de Dados do MySQL no script: 13-netdata.sh e
 no bloco de configuração do arquivo: 00-parametros.sh.
 
-06/12/2021 - Robson Vaamonde - Melhoria na documentação do monitoramento de Logs dos serviços de rede utilizando o
+06/12/2021 - Robson aluno - Melhoria na documentação do monitoramento de Logs dos serviços de rede utilizando o
 script: 00-parametros.sh, correção do Bug do Log do VSFTPd criando o arquivo no script: 09-vsftp.sh, 
 
-02/12/2021 - Robson Vaamonde - Criação das variáveis do teste do laço de loop das dependências dos script e dos pacotes
+02/12/2021 - Robson aluno - Criação das variáveis do teste do laço de loop das dependências dos script e dos pacotes
 de instalação das dependências de cada script no arquivo: 00-parametros.sh, ficando mais simples adicionar novas
 dependências na instalação do software.
 
-01/12/2021 - Robson Vaamonde - Customização do script: 16-fusioninventory.sh integrado com o GLPI, atualização das
+01/12/2021 - Robson aluno - Customização do script: 16-fusioninventory.sh integrado com o GLPI, atualização das
 versões do FusionInventory Server e Agent, atualização da variável $PATHTFTP no script: 06-tftphpa.sh, correção da
 linha: ddns-rev-domainname "1.16.172.in-addr.arpa."; no arquivo dhcpd.conf em relação a integração do DHCP e DNS,
 melhorias nas configurações do arquivo: named.conf.options em relação aos arquivos de Log do Bind9 DNS.
 
-30/11/2021 - Robson Vaamonde - Melhoria na documentação do arquivo: 00-parametros.sh adicionando as informações dos
+30/11/2021 - Robson aluno - Melhoria na documentação do arquivo: 00-parametros.sh adicionando as informações dos
 arquivos de configuração utilizados em cada script, melhoria na documentação do arquivo de virtual host: glpi.conf, 
 atualização da versão do PHP 7.4 no arquivo de agendamento: glpi.cron, retirado do script: 15-glpi.sh as dependências
 do PHP: php-recode php-xsl php-gettext php-iconv (analisando se essas dependências vai afetar diretamente o GLPI),
@@ -414,33 +414,33 @@ agora trabalhando com source.list (webmin.list) recomendado pelo projeto não ba
 a lentidão no Download dos arquivos binários do Webmin, Usermin e Virtualmin) com isso o Webmin sempre será atualizado
 pelo Apt,  
 
-26/11/2021 - Robson Vaamonde - Acréscimo da linha: option wpad "http://172.16.1.20/wpad.dat"; no arquivo de configuração
+26/11/2021 - Robson aluno - Acréscimo da linha: option wpad "http://172.16.1.20/wpad.dat"; no arquivo de configuração
 dhcpd.conf para suporte o protocolo WPAD (Web Proxy Autodiscovery Protocol), criação do CNAME: wpad no arquivo de
 configuração pti.intra.hosts
 
-25/11/2021 - Robson Vaamonde - Customização do script 15-glpi.sh e criação das variáveis no arquivo 00-parametros.sh,
+25/11/2021 - Robson aluno - Customização do script 15-glpi.sh e criação das variáveis no arquivo 00-parametros.sh,
 correções de PT-BR no arquivo 14-loganalyzer.sh.
 
-23/11/2021 - Robson Vaamonde - Correção da falha do nome do pacote no script: 13-netdata.sh (pacote python3-psycopg2)
+23/11/2021 - Robson aluno - Correção da falha do nome do pacote no script: 13-netdata.sh (pacote python3-psycopg2)
 alteração das variáveis do script 14-loganalyzer.sh (USERMYSQL e SENHAMYSQL) para a criação das bases de dados do
 Rsyslog e do LogAnalyzer, atualizando dos nomes das variáveis de criação das Bases de Dados do Rsyslog e LogAnalyzer,
 acréscimo da remoção dos diretórios do LogAnalyzer e da tradução no script 14-loganalyzer.sh, 
 
-20/11/2021 - Robson Vaamonde - Atualização do script: 01-openssh.sh, falha do redirecionamento do LOG da instalação
+20/11/2021 - Robson aluno - Atualização do script: 01-openssh.sh, falha do redirecionamento do LOG da instalação
 das ferramentas de rede ($LOG) na linha 128, atualização do arquivo de configuração do MySQL Server mysqld.cnf para
 suportar somente IPV4 (bind-address	= 0.0.0.0), atualização dos arquivos de configuração do Bind9 named.conf.options
 (recursion no;, version none;, server-id none;, querylog yes;) e named.conf.local (allow-transfer { none; };).
 
-05/11/2021 - Robson Vaamonde - Atualização do script: 01-openssh.sh, acréscimo do bloco de instalação das ferramentas
+05/11/2021 - Robson aluno - Atualização do script: 01-openssh.sh, acréscimo do bloco de instalação das ferramentas
 de rede (net-tools, ipcalc, nmap, etc...). Correções de PT-BR em vários scripts. Tradução do arquivo apache2.conf, 
 correção do script 07-lamp.sh na linha 231 (erro do nome do arquivo 000-default.conf), 
 
-02/11/2021 - Robson Vaamonde - Atualização do script: 11-wordpress.sh, customomização do script: 12-webmin.sh, 
+02/11/2021 - Robson aluno - Atualização do script: 11-wordpress.sh, customomização do script: 12-webmin.sh, 
 acréscimo das configurações de download do Webmin, Usermin e Virtualmin no script: 00-parametros.sh, melhoria do 
 script 13-netdata.sh, customização do script: 14-loganalyzer.sh e variáveis no arquivo 00-parametros.sh, mudança das
 opções de criação de banco de dados do Rsyslog e do LogAnalyzer no MySQL.
 
-20/10/2021 - Robson Vaamonde - Acréscimo da configuração do arquivo de configuração da Placa de Rede do Netplan no
+20/10/2021 - Robson aluno - Acréscimo da configuração do arquivo de configuração da Placa de Rede do Netplan no
 script: 02-openssh.sh, backup e atualização do arquivo 00-installer-config.yaml customizado, correção da falha de 
 edição do arquivo rndc.key no script: 03-dns.sh, acréscimo da verificação da porta TCP 953 no script: 03-dns.sh,
 melhoria no script: 04-dhcpdns.sh na geração da chave TSIG, criação do arquivo ntp com suporte somente ao IPv4 e
@@ -449,11 +449,11 @@ ports.conf do Apache2, arquivo configurado para suportar somente o protocolo IPv
 acréscimo do arquivo 00-default.conf do Apache2 no script: 07-lamp.sh, configuração do vsftpd.conf para suportar
 somente IPv4.
 
-19/10/2021 - Robson Vaamonde - Criação do arquivo HELP, nesse arquivo está os procedimentos básicos para utilizar os
+19/10/2021 - Robson aluno - Criação do arquivo HELP, nesse arquivo está os procedimentos básicos para utilizar os
 scripts desse curso, todo os procedimentos básicos para utilizar esse repositório e customizar os scripts ou arquivos
 configurações para o seu cenário.
 
-18/10/2021 - Robson Vaamonde - Acréscimo do bloco de verificação de dependências no script: 04-dhcpdns.sh, correção
+18/10/2021 - Robson aluno - Acréscimo do bloco de verificação de dependências no script: 04-dhcpdns.sh, correção
 e atualização dos arquivos de configuração do Vsftpd Server, customização do script 10-wordpress.sh, criação das
 variáveis no arquivo: 00-parametros.sh, melhoria no script do wordpress adicionando a criação do usuário de FTP com 
 permissão de acesso ao diretório /var/www/html/wp, criação do Virtual Host do Wordpress utilizando ponteiros no Bind 
@@ -464,13 +464,13 @@ customização do arquivo de configuração rndc.key com a mesma chave do arquiv
 e edição do arquivo o script: 03-dns.sh, customização do script: 04-dhcpdns.sh adicionando a criação da chave TSIG
 hmac-md5 no arquivo rndc.key. Correção das dependências do Netdata no script: 11-netdata.sh, 
 
-17/10/2021 - Robson Vaamonde - Melhorias no script: 08-openssl.sh com foco principal na documentação e organização do
+17/10/2021 - Robson aluno - Melhorias no script: 08-openssl.sh com foco principal na documentação e organização do
 script nas variáveis do arquivo: 00-parametros.sh, remoção da criação do usuário: wordpress do script 09-vsftpd.sh,
 acréscimo da cópia dos arquivos hosts, hostname e nsswitch.conf no script: 01-openssh.sh, retirado as linhas de edição 
 dos arquivos hosts e hostname do script: 02-dhcp.sh, criação do arquivo timesyncd.conf que será utilizado no script
 05-ntp.sh, 
 
-15/10/2021 - Robson Vaamonde - Melhorias no script: 07-lamp.sh, atualização da versão do Debconf do Mysql Server para
+15/10/2021 - Robson aluno - Melhorias no script: 07-lamp.sh, atualização da versão do Debconf do Mysql Server para
 a versão 8.0, acréscimo da dependência do PhpMyAdmin php-json e retirada do: php-gettext no Ubuntu 20.04.x o suporte
 ao php-getttext foi retirado dos repositórios oficiais, remoção da versão do pecl install mcrypt para facilitar o
 processo de instalação da dependência de criptografia do PHP, atualização da versão do PHP 7.4, atualização dos arquivos
@@ -478,7 +478,7 @@ de configuração: apache2.conf, mcrypt.ini, mysqld.cnf, php.ini, phpinfo.php, t
 liberação de acesso remoto ao usuário root no mysql, criação da variável: CREATEUSER e atualização da variável GRANTALL
 no arquivo de parâmetros: 00-parametros.sh
 
-14/10/2021 - Robson Vaamonde - Adicionado o comando: timedatectl set-timezone no script: 05-ntp.sh e criado a variável
+14/10/2021 - Robson aluno - Adicionado o comando: timedatectl set-timezone no script: 05-ntp.sh e criado a variável
 TIMEZONE="America/Sao_Paulo" no arquivo de parâmetros: 00-parametros.sh. Melhoria na documentação da geração da chave
 TSIG no arquivo conf: named.conf.local, desabilitado o recurso do IPv6 no arquivo conf: named.conf.options, criação do
 arquivo named referente ao serviço do Bind9 DNS Server, adicionado a opção -4 para suportar somente IPv4, acrescentado
@@ -491,20 +491,20 @@ mensagens no Systemctl de: MX is a CNAME (illegal), alterado as configurações 
 direta: pti.intra.hosts, retirado: 10 mail.pti.intra. deixado só: 10 mail, mudado a linha: mail IN CNAME ptispo01ws01
 para: mail IN A	172.16.1.20.
 
-13/10/2021 - Robson Vaamonde - Substituição do comando dnssec-keygen pelo comando tsig-keygen no script: 04-dhcpdns.sh
+13/10/2021 - Robson aluno - Substituição do comando dnssec-keygen pelo comando tsig-keygen no script: 04-dhcpdns.sh
 conforme documentação do MAN do comando dnssec-keygen o suporte ao HMAC-MD5 foi descontinuado a partir da versão 9.13
 do Bind9 DNS Server, para usar essa opção você precisa utilizar o comando tsig-keygen. Correções no script: 05-ntp.sh
 e seu arquivo de configuração: ntp.conf. Customização do script: 06-tftp.sh, remoção dos recursos de PXE e Syslinux e 
 customização do arquivo de configuração: tftp-hpa.
 
-12/10/2021 - Robson Vaamonde - Customização dos scripts: 02-dhcp.sh, 03-dns.sh e 04-dhcpdns.sh e dos arquivos de 
+12/10/2021 - Robson aluno - Customização dos scripts: 02-dhcp.sh, 03-dns.sh e 04-dhcpdns.sh e dos arquivos de 
 configuração dos serviços de: hostname, hosts, nsswitch.conf, 00-installer-config.yaml, dhcpd.conf, named.conf, 
 named.conf.local, named.conf.options, pti.intra.hosts, 172.16.1.rev e dnsupdate-cron.
 
-11/10/2021 - Robson Vaamonde - Customização do script: 01-openssh.sh e dos arquivos de configuração dos serviços de: 
+11/10/2021 - Robson aluno - Customização do script: 01-openssh.sh e dos arquivos de configuração dos serviços de: 
 issue.net, hosts, hosts.allow, hosts.deny e sshd_config, todos customizados para a versão 20.04.x do Ubuntu Server.
 
-10/10/2021 - Robson Vaamonde - Criação do arquivo 00-parametros.sh para facilitar as configurações dos scripts, copia
+10/10/2021 - Robson aluno - Criação do arquivo 00-parametros.sh para facilitar as configurações dos scripts, copia
 dos scripts da versão 18.04.x e organização dos novos diretórios e arquivos de configuração.
 
-06/10/2021 - Robson Vaamonde - Criação do repositório e configuração dos script para a nova versão do Ubuntu 20.04.x.
+06/10/2021 - Robson aluno - Criação do repositório e configuração dos script para a nova versão do Ubuntu 20.04.x.

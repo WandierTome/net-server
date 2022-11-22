@@ -1,13 +1,13 @@
-Autor: Robson Vaamonde<br>
+Autor: Robson aluno<br>
 Procedimentos em TI: http://procedimentosemti.com.br<br>
 Bora para Prática: http://boraparapratica.com.br<br>
-Robson Vaamonde: http://vaamonde.com.br<br>
+Robson aluno: http://aluno.com.br<br>
 Facebook Procedimentos em TI: https://www.facebook.com/ProcedimentosEmTi<br>
 Facebook Bora para Prática: https://www.facebook.com/BoraParaPratica<br>
 Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
-LinkedIn Robson Vaamonde: https://www.linkedin.com/in/robson-vaamonde-0b029028/<br>
-Github Procedimentos em TI: https://github.com/vaamonde<br>
+LinkedIn Robson aluno: https://www.linkedin.com/in/robson-aluno-0b029028/<br>
+Github Procedimentos em TI: https://github.com/aluno<br>
 Data de criação: 26/02/2022<br>
 Data de atualização: 02/03/2022<br>
 Versão: 0.02<br>
@@ -142,9 +142,9 @@ Instalação do Ubuntu Server: https://ubuntu.com/server/docs/installation
 	_	Confirm destructive action
 	_		<Continue>
 	_ 09. Profile setup
-	_ 		Your name: Robson Vaamonde <Tab>
+	_ 		Your name: Robson aluno <Tab>
 	_ 		Your server's name: ptispo01ws01 <Tab>
-	_ 		Pick a username: vaamonde <Tab>
+	_ 		Pick a username: aluno <Tab>
 	_ 		Choose a passwords: pti@2018 <Tab>
 	_ 		Confirm your passwords: pti@2018
 	_ 	<Done>

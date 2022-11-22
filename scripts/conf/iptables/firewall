@@ -1,5 +1,5 @@
 #!/bin/bash
-# Modificado por: Robson Vaamonde
+# Modificado por: Robson aluno
 # Site: www.procedimentosemti.com.br
 # Facebook: facebook.com/ProcedimentosEmTI
 # Facebook: facebook.com/BoraParaPratica
@@ -237,7 +237,7 @@ case "$1" in
 	echo "======================================================================|"
 	echo "FIREWALL ATIVADO - SISTEMA PREPARADO E FUNCIONANDO PERFEITAMENTE"
 	echo "SCRIPT DE FIREWALL CRIADO POR :-) MARCELO MAGNO :-) - TODOS OS CRÉDITOS"
-	echo "SCRIPT DE FIREWALL MODIFICADO POR: ROBSON VAAMONDE - Procedimentos em TI ;-)"
+	echo "SCRIPT DE FIREWALL MODIFICADO POR: ROBSON aluno - Procedimentos em TI ;-)"
 	;;
 	#
 	# Início do Script de Firewall IPTables, utilizando o comando case (opção: stop)
@@ -269,7 +269,7 @@ case "$1" in
 	echo "======================================================================|"
 	echo "FIREWALL INATIVO - SISTEMA PARADO E LIBERADO TODAS AS REGRAS"
 	echo "SCRIPT DE FIREWALL CRIADO POR: MARCELO MAGNO :-) - TODOS OS CRÉDITOS"
-	echo "SCRIPT DE FIREWALL MODIFICADO POR: ROBSON VAAMONDE - Procedimentos em TI ;-)"
+	echo "SCRIPT DE FIREWALL MODIFICADO POR: ROBSON aluno - Procedimentos em TI ;-)"
 	;;
 	#
 	# Início do Script de Firewall IPTables, utilizando o comando case (opção: restart)
@@ -303,7 +303,7 @@ case "$1" in
 	echo ":FIM DA LISTAGEM DAS REGRAS DE FIREWALL NETFILTER ATRAVÉS DO IPTABLES:|"
 	echo "======================================================================|"
 	echo "SCRIPT DE FIREWALL CRIADO POR: MARCELO MAGNO :-) - TODOS OS CRÉDITOS"
-	echo "SCRIPT DE FIREWALL MODIFICADO POR: ROBSON VAAMONDE - Procedimentos em TI ;-)"
+	echo "SCRIPT DE FIREWALL MODIFICADO POR: ROBSON aluno - Procedimentos em TI ;-)"
 	;;
 	#
 	# Início do Script de Firewall IPTables, utilizando o comando case (opção: *)	

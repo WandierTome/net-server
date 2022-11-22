@@ -1,12 +1,12 @@
 #!/bin/bash
-# Autor: Robson Vaamonde
+# Autor: Robson aluno
 # Site: www.procedimentosemti.com.br
 # Facebook: facebook.com/ProcedimentosEmTI
 # Facebook: facebook.com/BoraParaPratica
 # YouTube: youtube.com/BoraParaPratica
-# Linkedin: https://www.linkedin.com/in/robson-vaamonde-0b029028/
+# Linkedin: https://www.linkedin.com/in/robson-aluno-0b029028/
 # Instagram: https://www.instagram.com/procedimentoem/?hl=pt-br
-# Github: https://github.com/vaamonde
+# Github: https://github.com/aluno
 # Data de criação: 25/11/2021
 # Data de atualização: 07/09/2022
 # Versão: 0.15
@@ -64,9 +64,9 @@
 #			Senha: pti@2018
 #			Confirmação de senha: pti@2018
 #		Desativar contas: normal, post-only, tech
-#		Adicionar novo usuário: vaamonde
-#			Usuário: vaamonde
-#			Sobrenome: Vaamonde
+#		Adicionar novo usuário: aluno
+#			Usuário: aluno
+#			Sobrenome: aluno
 #			Nome: Robson
 #			Senha: pti@2018
 #			Confirmação da senha: pti@2018

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-# Autor: Robson Vaamonde
+# Autor: Robson aluno
 # Site: www.procedimentosemti.com.br
 # Facebook: facebook.com/ProcedimentosEmTI
 # Facebook: facebook.com/BoraParaPratica
 # YouTube: youtube.com/BoraParaPratica
-# Linkedin: https://www.linkedin.com/in/robson-vaamonde-0b029028/
+# Linkedin: https://www.linkedin.com/in/robson-aluno-0b029028/
 # Instagram: https://www.instagram.com/procedimentoem/?hl=pt-br
 # Data de criação: 24/10/2021
 # Data de atualização: 12/05/2022
@@ -61,7 +61,7 @@
 		sslProtocol="TLS"
 		sslEnabledProtocols="TLSv1.2,TLSv1.1,TLSv1,SSLv2Hello"
 		keystoreFile="/etc/tomcat9/tomcat9.jks"
-		keystorePass="vaamonde" />
+		keystorePass="aluno" />
     -->
 
     <Engine name="Catalina" defaultHost="localhost">

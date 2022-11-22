@@ -1,12 +1,12 @@
 #!/bin/bash
-# Autor: Robson Vaamonde
+# Autor: Robson aluno
 # Site: www.procedimentosemti.com.br
 # Facebook: facebook.com/ProcedimentosEmTI
 # Facebook: facebook.com/BoraParaPratica
 # YouTube: youtube.com/BoraParaPratica
-# Linkedin: https://www.linkedin.com/in/robson-vaamonde-0b029028/
+# Linkedin: https://www.linkedin.com/in/robson-aluno-0b029028/
 # Instagram: https://www.instagram.com/procedimentoem/?hl=pt-br
-# Github: https://github.com/vaamonde
+# Github: https://github.com/aluno
 # Data de criação: 10/10/2021
 # Data de atualização: 24/03/2022
 # Versão: 0.27
@@ -32,12 +32,12 @@
 # Acesso remoto utilizando o GNU/Linux ou Microsoft Windows
 #
 # Linux Mint Terminal: Ctrl+Alt+T
-# 	ssh vaamonde@172.16.1.20
-#	ssh vaamonde@ssh.pti.intra
+# 	ssh aluno@172.16.1.20
+#	ssh aluno@ssh.pti.intra
 #
 # Windows Powershell: Menu, Powershell 
-#	ssh vaamonde@172.16.1.20
-#	ssh vaamonde@ssh.pti.intra
+#	ssh aluno@172.16.1.20
+#	ssh aluno@ssh.pti.intra
 #
 # Linux Mint ou Windows:
 #	apt install putty putty-tools
@@ -56,10 +56,10 @@
 # Gerando os pares de chaves Pública/Privadas utilizando o GNU/Linux
 # Linux Mint Terminal: Ctrl+Alt+T
 #	ssh-keygen
-#		Enter file in which to save the key (/home/vaamonde/.ssh/id_rsa): /home/vaamonde/.ssh/vaamonde <Enter>
+#		Enter file in which to save the key (/home/aluno/.ssh/id_rsa): /home/aluno/.ssh/aluno <Enter>
 #		Enter passphrase (empty for no passphrase): <Enter>
 #		Enter same passphrase again: <Enter>
-#	ssh-copy-id vaamonde@172.16.1.20
+#	ssh-copy-id aluno@172.16.1.20
 #
 # Importando os pares de chaves Públicas/Privadas utilizando o Powershell
 # Windows Powershell: Menu, Powershell 
@@ -69,7 +69,7 @@
 #		Start-Service ssh-agent <Enter>
 #
 #	Segunda etapa: Powershell do perfil do usuário sem ser como administrador
-#		ssh-add .\vaamonde <Enter>
+#		ssh-add .\aluno <Enter>
 #
 # Arquivo de configuração dos parâmetros utilizados nesse script
 source 00-parametros.sh

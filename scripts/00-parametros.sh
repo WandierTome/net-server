@@ -1,12 +1,11 @@
 #!/bin/bash
-# Autor: Robson Vaamonde
-# Site: www.procedimentosemti.com.br
-# Facebook: facebook.com/ProcedimentosEmTI
-# Facebook: facebook.com/BoraParaPratica
-# YouTube: youtube.com/BoraParaPratica
-# Linkedin: https://www.linkedin.com/in/robson-vaamonde-0b029028/
-# Instagram: https://www.instagram.com/procedimentoem/?hl=pt-br
-# Github: https://github.com/vaamonde
+# Autor: Wandiêr de Souza Tome
+# Site: 
+# Facebook: 
+# YouTube: 
+# Linkedin: 
+# Instagram: 
+# GitHub: 
 # Data de criação: 10/10/2021
 # Data de atualização: 05/10/2022
 # Versão: 0.82
@@ -50,18 +49,18 @@ export DEBIAN_FRONTEND="noninteractive"
 # Declarando as variáveis utilizadas nas configurações de Rede do Servidor Ubuntu 
 #
 # Variável do Usuário padrão utilizado no Servidor Ubuntu desse curso
-USUARIODEFAULT="vaamonde"
+USUARIODEFAULT="aluno"
 #
 # Variável da Senha padrão utilizado no Servidor Ubuntu desse curso
 # OBSERVAÇÃO IMPORTANTE: essa variável será utilizada em outras variáveis desse curso
-SENHADEFAULT="pti@2018"
+SENHADEFAULT="teste123"
 #
 # Variável do Nome (Hostname) do Servidor Ubuntu desse curso
-NOMESERVER="ptispo01ws01"
+NOMESERVER="sp01ws01"
 #
 # Variável do Nome de Domínio do Servidor Ubuntu desse curso
 # OBSERVAÇÃO IMPORTANTE: essa variável será utilizada em outras variáveis desse curso
-DOMINIOSERVER="pti.intra"
+DOMINIOSERVER="teste.intra"
 #
 # Variável do Nome de Domínio NetBIOS do Servidor Ubuntu desse curso
 # OBSERVAÇÃO IMPORTANTE: essa variável será utilizada em outras variáveis desse curso
@@ -221,10 +220,10 @@ PORTRNDC="953"
 # 
 # Variável da senha em modo texto que está configurada nos arquivos: dhcpd.conf, named.conf.local
 # e rndc.key que será substituída pela nova chave criptografada da variável: USERUPDATE
-SECRETUPDATE="vaamonde"
+SECRETUPDATE="aluno"
 #
 # Variável da senha utilizada na criação da chave de atualização dos ponteiros do DNS e DHCP
-USERUPDATE="vaamonde"
+USERUPDATE="aluno"
 #
 # Variável das dependências do laço de loop da integração do Bind DNS e do ISC DHCP Server
 DHCPDNSDEP="isc-dhcp-server bind9"
@@ -500,7 +499,7 @@ PORTTOMCATSSL="8443"
 # Variável de download da aplicação Agenda de Contatos em Java feita pelo Prof. José de Assis
 # Github do projeto: https://github.com/professorjosedeassis/javaEE (Link atualizado em: 11/01/2022)
 # YouTUBE do projeto: https://www.youtube.com/playlist?list=PLbEOwbQR9lqz9AnwhrrOLz9cz1-TxoiUg
-AGENDAJAVAEE="https://github.com/professorjosedeassis/javaEE/raw/main/agendaVaamonde.war"
+AGENDAJAVAEE="https://github.com/professorjosedeassis/javaEE/raw/main/agendaaluno.war"
 #
 # Variáveis de criação da Base de Dados da Agenda de Contatos no MySQL
 # opções do comando CREATE: create (criação), database (base de dados), base (banco de dados)
@@ -576,7 +575,7 @@ CREATE_TABLE_JAVAEE="CREATE TABLE contatos (
 # Variáveis utilizadas na geração das chaves privadas/públicas dos certificados do OpenSSL
 #
 # Variável da senha utilizada na geração das chaves privadas/públicas da CA e dos certificados
-PASSPHRASE="vaamonde"
+PASSPHRASE="aluno"
 #
 # Variável do tipo de criptografia da chave privada com as opções de: -aes128, -aes192, -aes256, 
 # -camellia128, -camellia192, -camellia256, -des, -des3 ou -idea, padrão utilizado: -aes256

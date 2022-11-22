@@ -1,7 +1,7 @@
-#Autor: Robson Vaamonde<br>
+#Autor: Robson aluno<br>
 #Procedimentos em TI: http://procedimentosemti.com.br<br>
 #Bora para Prática: http://boraparapratica.com.br<br>
-#Robson Vaamonde: http://vaamonde.com.br<br>
+#Robson aluno: http://aluno.com.br<br>
 #Facebook Procedimentos em TI: https://www.facebook.com/ProcedimentosEmTi<br>
 #Facebook Bora para Prática: https://www.facebook.com/BoraParaPratica<br>
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>

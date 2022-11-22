@@ -1,12 +1,12 @@
 #!/bin/bash
-# Autor: Robson Vaamonde
+# Autor: Robson aluno
 # Site: www.procedimentosemti.com.br
 # Facebook: facebook.com/ProcedimentosEmTI
 # Facebook: facebook.com/BoraParaPratica
 # YouTube: youtube.com/BoraParaPratica
-# Linkedin: https://www.linkedin.com/in/robson-vaamonde-0b029028/
+# Linkedin: https://www.linkedin.com/in/robson-aluno-0b029028/
 # Instagram: https://www.instagram.com/procedimentoem/?hl=pt-br
-# Github: https://github.com/vaamonde
+# Github: https://github.com/aluno
 # Data de criação: 08/01/2022
 # Data de atualização: 15/07/2022
 # Versão: 0.12
@@ -26,24 +26,24 @@
 # Linux Mint Terminal: Ctrl+Alt+T
 #	sudo apt update && sudo apt install davfs2
 #		Usuários sem privilégios podem montar recursos WebDAV? <SIM>
-#	sudo usermod -a -G davfs2 vaamonde (modify a user account)
+#	sudo usermod -a -G davfs2 aluno (modify a user account)
 #	sudo mkdir -v /mnt/davs (make directories)
 #	id (print real and effective user and group IDs)
 #	groups (print the groups a user is in)
 #	sudo cat /etc/groups
 #	sudo mount -v -t davfs -o rw,noexec,nosuid,nodev,noauto,uid=1000,gid=1000 https://webdav.pti.intra /mnt/davs/ (mount a filesystem)
-#		Username: vaamonde
+#		Username: aluno
 #		Password: pti@2018
 #	sudo mount | grep davfs (mount a filesystem)
 #	sudo umount /mnt/davs (umount a filesystem)
 #
 # Gerenciador de Arquivos Neno
 #	Ctrl+L
-#		davs://vaamonde@webdav.pti.intra/
+#		davs://aluno@webdav.pti.intra/
 #
 # Navegadores de Internet (Firefox, Chrome, Edge, etc...)
 #	URL: https://webdav.pti.intra/
-#		Username: vaamonde
+#		Username: aluno
 #		Password: pti@2018
 #
 # Windows Explorer:
@@ -53,7 +53,7 @@
 #				<Avançar>;
 #				Escolher um Local de Rede Personalizado <Avançar>;
 #				Endereço de Rede ou na Internet: https://webdav.pti.intra <Avançar>;
-#					Nome do usuário: vaamonde
+#					Nome do usuário: aluno
 #					Senha do usuário: pti@2018 <OK>
 #				Digite o nome para este local de rede: webdav.pti.intra <Avançar>;
 #				Abrir esse local de rede quando eu clicar em Concluir <Concluir>.
@@ -70,9 +70,9 @@
 #
 #	OBSERVAÇÃO IMPORTANTE: o comando New-PSDriver do Powershell não aparece o compartilhamento no Windows Explorer
 #	já o comando Net Use aparece no compartilhamento do Windows Explorer (recomendado)
-#	New-PSDrive -Name W -PSProvider FileSystem -Root \\webdav.pti.intra@SSL\webdav -Credential vaamonde
+#	New-PSDrive -Name W -PSProvider FileSystem -Root \\webdav.pti.intra@SSL\webdav -Credential aluno
 #		cd w:
-#	net use X: https://webdav.pti.intra /USER:vaamonde pti@2018
+#	net use X: https://webdav.pti.intra /USER:aluno pti@2018
 #		cd x:
 #
 # Arquivo de configuração dos parâmetros utilizados nesse script

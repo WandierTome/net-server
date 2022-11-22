@@ -1,10 +1,10 @@
 <!--
-# Autor: Robson Vaamonde
+# Autor: Robson aluno
 # Site: www.procedimentosemti.com.br
 # Facebook: facebook.com/ProcedimentosEmTI
 # Facebook: facebook.com/BoraParaPratica
 # YouTube: youtube.com/BoraParaPratica
-# Linkedin: https://www.linkedin.com/in/robson-vaamonde-0b029028/
+# Linkedin: https://www.linkedin.com/in/robson-aluno-0b029028/
 # Instagram: https://www.instagram.com/procedimentoem/?hl=pt-br
 # Data de criação: 03/12/2021
 # Data de atualização: 12/07/2022
@@ -26,21 +26,21 @@
             <protocol>ssh</protocol>
             <param name="hostname">172.16.1.20</param>
             <param name="port">22</param>
-            <param name="username">vaamonde</param>
+            <param name="username">aluno</param>
         </connection>
         <!-- configuração do acesso remoto via Telnet-->
         <connection name="Ubuntu-Server-Telnet">
             <protocol>telnet</protocol>
             <param name="hostname">172.16.1.20</param>
             <param name="port">23</param>
-            <param name="username">vaamonde</param>
+            <param name="username">aluno</param>
         </connection>
         <!-- configuração do acesso remoto via RDP-->
         <connection name="Windows-7-RDP">
             <protocol>rdp</protocol>
             <param name="hostname">172.16.1.103</param>
             <param name="port">3389</param>
-            <param name="username">vaamonde</param>
+            <param name="username">aluno</param>
             <param name="ignore-cert">true</param>
             <param name="disable-bitmap-caching">true</param>
             <param name="disable-offscreen-caching">true</param>
@@ -51,7 +51,7 @@
             <protocol>rdp</protocol>
             <param name="hostname">172.16.1.104</param>
             <param name="port">3389</param>
-            <param name="username">vaamonde</param>
+            <param name="username">aluno</param>
             <param name="ignore-cert">true</param>
         </connection>
         <!-- configuração do acesso remoto via VNC-->
